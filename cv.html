@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - MD Mahbubur Rahman</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #0f172a;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            background: #1e293b;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .header h1 {
+            color: white;
+            font-size: 1.25rem;
+        }
+        .btn {
+            padding: 0.5rem 1rem;
+            background: #6366f1;
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .btn:hover {
+            background: #4f46e5;
+        }
+        .pdf-container {
+            flex: 1;
+            width: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>CV - MD Mahbubur Rahman</h1>
+            <a href="MD-Mahbubur-Rahman-WordPress-Developer-2026.pdf" download class="btn">Download PDF</a>
+        </div>
+        <div class="pdf-container">
+            <iframe src="MD-Mahbubur-Rahman-WordPress-Developer-2026.pdf" type="application/pdf"></iframe>
+        </div>
+    </div>
+</body>
+</html>
